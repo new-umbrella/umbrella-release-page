@@ -255,13 +255,18 @@ export default function Download() {
               Your feedback is invaluable in helping us improve the application.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline">
-                <Github className="mr-2 h-4 w-4" />
-                Report Issues
-              </Button>
-              <Button variant="outline">
-                Join Beta Testing
-              </Button>
+              <Link href="https://github.com/new-umbrella/umbrella/issues" target="_blank">
+                <Button variant="outline">
+                  <Github className="mr-2 h-4 w-4" />
+                  Report Issues
+                </Button>
+              </Link>
+              <Link href="https://github.com/new-umbrella/umbrella/discussions" target="_blank">
+                <Button variant="outline">
+                  <Github className="mr-2 h-4 w-4" />
+                  Join Beta Testing
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
