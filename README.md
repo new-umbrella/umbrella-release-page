@@ -7,7 +7,7 @@
 
   <p>
     <a href="https://github.com/new-umbrella/umbrella">📱 View App Repository</a> •
-    <a href="#">🌐 Website (Coming Soon)</a> •
+    <a href="https://umbrella-theta.vercel.app/" target="_blank">🌐 Website</a> •
     <a href="https://github.com/new-umbrella/umbrella/releases">⬇️ Download</a>
   </p>
 </div>
