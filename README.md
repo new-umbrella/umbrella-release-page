@@ -1,7 +1,6 @@
 # Umbrella
 
 <div align="center">
-  <img src="public/assets/images/screenshots/SplashScreen.png" alt="Umbrella Logo" width="120" height="120" />
 
   <h1>🌂 Umbrella</h1>
   <p><strong>A modular React Native application featuring a plugin-based architecture</strong></p>
@@ -33,6 +32,7 @@ Umbrella is a revolutionary media application built with React Native that intro
 ### 🏗️ Architecture
 
 Umbrella follows CLEAN architecture principles combined with MVVM pattern, ensuring:
+
 - **Modular component structure**
 - **Centralized state management**
 - **Secure plugin execution environment**
@@ -79,17 +79,20 @@ This repository contains the official release page website for Umbrella, built w
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/new-umbrella/umbrella-release-page.git
 cd umbrella-release-page
 ```
 
 2. Install dependencies:
+
 ```bash
 pnpm install
 ```
 
 3. Run the development server:
+
 ```bash
 pnpm dev
 ```
