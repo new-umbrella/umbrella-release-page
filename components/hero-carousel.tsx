@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
-import { Smartphone, Monitor, Tablet } from "lucide-react"
 
 const screenshots = [
   {
@@ -26,19 +25,6 @@ const screenshots = [
     description: "Powerful plugin system allowing dynamic content sources and features"
   }
 ]
-
-const getDeviceIcon = (device: string) => {
-  switch (device) {
-    case "phone":
-      return Smartphone
-    case "tablet":
-      return Tablet
-    case "desktop":
-      return Monitor
-    default:
-      return Smartphone
-  }
-}
 
 export function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
